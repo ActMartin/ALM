@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	cmd "learn/slice/cmd"
+	cmd "github.com/actmartin/alm/cmd"
 	"math/rand"
 	"runtime"
 	"time"
