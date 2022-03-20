@@ -1,6 +1,7 @@
 package main
 
 import (
+	"alm/cmd"
 	"fmt"
 	"time"
 )
@@ -50,6 +51,6 @@ func main() {
 			twoD[i][j] = i + j
 		}
 	}
-
+	cmd.PrintMem()
 	fmt.Println(twoD)
 }

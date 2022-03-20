@@ -2,19 +2,12 @@ package main
 
 import (
 	"fmt"
-	cmd "github.com/actmartin/alm/cmd"
+	//"github.com/ActMartin/alm/cmd"
+	"learn/slice/cmd"
 	"math/rand"
 	"runtime"
 	"time"
 )
-
-/*
-func printMem() {
-	var rtm runtime.MemStats
-	runtime.ReadMemStats(&rtm)
-	fmt.Printf("%f MB\n", float64(rtm.Alloc)/1024./1024.)
-}
-*/
 
 func makeArr() []int {
 	arr := make([]int, 8000000)
